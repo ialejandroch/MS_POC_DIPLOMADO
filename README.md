@@ -10,7 +10,7 @@ Este es un microservicio desarrollado con FastAPI para gestionar usuarios. Permi
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en máquina local:
 
    ```bash
    git clone <URL_DEL_REPOSITORIO>
