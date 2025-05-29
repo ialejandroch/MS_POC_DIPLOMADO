@@ -30,7 +30,7 @@ uvicorn main:app --reload
 Esto iniciará el servidor en http://127.0.0.1:8000.
 
 # Endpoints
-##Obtener todos los usuarios
+## Obtener todos los usuarios
 URL: GET /users
 Descripción: Devuelve la lista de todos los usuarios.
 Respuesta de ejemplo:
@@ -48,7 +48,7 @@ Respuesta de ejemplo:
   }
 ]
 
-##Obtener un usuario por ID
+## Obtener un usuario por ID
 URL: GET /users/{user_id}
 Descripción: Devuelve los datos de un usuario específico.
 Respuesta de ejemplo:
@@ -59,7 +59,7 @@ Respuesta de ejemplo:
   "email": "juan@example.com"
 }
 
-##Crear un nuevo usuario
+## Crear un nuevo usuario
 URL: POST /users
 Descripción: Crea un nuevo usuario.
 Cuerpo de la solicitud:
